@@ -1,4 +1,5 @@
 import {Web3} from "web3";
+import TransaccionesMetamask from "./TransaccionesMetamask";
 
 const Transacciones = () =>{
 
@@ -17,6 +18,10 @@ const Transacciones = () =>{
         <>
             <h1>Transacciones</h1>
             <button onClick={transaction}>Transaccion</button>
+
+            <div>
+              <TransaccionesMetamask />
+            </div>
         </>
     )
 }
